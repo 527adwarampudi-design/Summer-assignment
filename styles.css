@@ -34,7 +34,7 @@ h1 {
     margin-bottom: 20px;
 }
 #theDiv {
-    width:80;
+    width:80% ;
     max-width:800px;
     border: dashed pink 2px;
     padding: 30px;
@@ -57,3 +57,7 @@ h1 {
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1)
     }
+    .sticky-element {
+  position: sticky;
+  bottom: 0;
+}
